@@ -1,0 +1,59 @@
+*{box-sizing: border-box;}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+    margin: 0;
+    border: solid rgb(194, 194, 194) 1px;
+    box-shadow: 1px 1px 5px #888888;
+    border-radius: .5rem;
+}
+
+.score{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+p{
+    margin: 0;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.to{
+    padding: 0rem .5rem;
+}
+
+.limit{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.limit p {
+    margin-right: .25rem;
+}
+
+input{
+    width: 50px;
+}
+
+button{
+    padding: .25rem;
+    margin: .25rem;
+}
