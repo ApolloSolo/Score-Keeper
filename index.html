@@ -13,22 +13,24 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="container">
-            <div class="score row">
-                <span class="player-1">0</span>
-                <p class="to">TO</p>
-                <span class="player-2">0</span>
-            </div>
-            <div class="limit row">
-                <p>Playing To:</p>
-                <input type="number">
-            </div>
+        <div class="another-container">
+            <div class="container">
+                <div class="score row">
+                    <span class="player-1">0</span>
+                    <p class="to">TO</p>
+                    <span class="player-2">0</span>
+                </div>
+                <div class="limit row">
+                    <p>Playing To:</p>
+                    <input class="rounds" type="number">
+                </div>
+            </div> 
             <div class="buttons row">
                 <button class="p1">Player 1</button>
                 <button class="p2">Player 2</button>
                 <button class="reset">Reset</button>
-            </div>
-        </div>      
+            </div> 
+        </div>    
         <script src="app.js" async defer></script>
     </body>
 </html>

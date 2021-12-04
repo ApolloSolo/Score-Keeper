@@ -20,6 +20,11 @@ body{
     border-radius: .5rem;
 }
 
+.another-container{
+    display: flex;
+    flex-direction: column;
+}
+
 .score{
     font-size: 2rem;
     font-weight: 700;
